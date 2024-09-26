@@ -1,0 +1,96 @@
+/*body*/
+/*Use of different font family amd change the font size */
+body{
+    /*Margin and padding is zero*/
+    margin: 0;
+    padding: 0;
+    font-family: Neucha;
+    font-size: 30px;
+    background: linear-gradient(hsl(234, 17%, 23%), hwb(245 32% 20%), hsl(234, 17%, 23%));
+}
+/*header*/
+header{
+    /*set the height,background color,padding of header*/
+    height: 80px;
+    background-color:  #B7E0FF;
+    margin-top: 0;
+    padding: 5px;
+    /*use of flex*/
+    display: flex;
+    /*align all item at center*/
+    align-items: center;
+    justify-content: space-between;
+}
+/*h1 tag*/
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Sriracha;/*Use of different font family*/
+    margin-left: 10px;
+}
+/*css for class named body*/
+.body{
+    /*set width, margin and padding*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*video*/
+.video{
+    /*make the video at the cener*/
+    padding-left: 33%;
+}
+/*h2 tag*/
+h2{
+    text-align: center;/*Align text at center*/
+    font-family: Marck Script;/*use of different fonts*/
+    font-size: 5rem;/*set the size of font*/
+    color:#FCDE70
+}
+/*image class*/
+.image{
+    /*align image and lyrics in the center*/
+    text-align: center;
+}
+/*set the height, width and margin of the image*/
+.img{
+    width: 45%;
+    height: 35%;
+    display: block;
+    margin: 0 auto;
+}
+/*lyrics class which contains lyrics*/
+.lyrics{
+    max-width: 600px;
+    color: hsl(0, 0%, 100%);/*color*/
+    text-align: center;
+    display: flex;/*use of flex*/
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* it will center the lyrics horizontally */
+}
+/*css for paragragh in lyrics class*/
+.lyrics .p {
+    /*align lyrics at center*/
+    text-align: center;
+}
+/*class abc to change the size , color anf font family of the text*/
+.abc{
+    font-family: Audiowide;
+    font-size: 40px;
+    color: #C96868;
+}
+/*class def to change the size , color anf font family of the text*/
+.def{
+    font-family: Spicy Rice;
+    color: #FCDE70;
+    font-size: 50px;
+}
+/*css for footer*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1%;
+    font-size: 20px;
+}
